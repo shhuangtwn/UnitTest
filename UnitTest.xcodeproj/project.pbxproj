@@ -15,6 +15,7 @@
 		75EEDD831DB46388004D4D99 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 75EEDD821DB46388004D4D99 /* users.json */; };
 		75EEDD851DB46555004D4D99 /* UserListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */; };
 		75EEDD871DB4659F004D4D99 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDD861DB4659E004D4D99 /* UserObject.swift */; };
+		75EEDD891DB467B8004D4D99 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDD881DB467B8004D4D99 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		75EEDD821DB46388004D4D99 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTableTableViewController.swift; sourceTree = "<group>"; };
 		75EEDD861DB4659E004D4D99 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		75EEDD881DB467B8004D4D99 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				75EEDD821DB46388004D4D99 /* users.json */,
 				75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */,
 				75EEDD861DB4659E004D4D99 /* UserObject.swift */,
+				75EEDD881DB467B8004D4D99 /* User.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				75EEDD851DB46555004D4D99 /* UserListTableTableViewController.swift in Sources */,
 				75EEDD871DB4659F004D4D99 /* UserObject.swift in Sources */,
 				75EEDD731DB461E8004D4D99 /* ViewController.swift in Sources */,
+				75EEDD891DB467B8004D4D99 /* User.swift in Sources */,
 				75EEDD711DB461E8004D4D99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

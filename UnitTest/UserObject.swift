@@ -15,3 +15,4 @@ protocol UserObject {
     var name: String { get }
     
 }
+
