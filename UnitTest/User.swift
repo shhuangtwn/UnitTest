@@ -25,7 +25,14 @@ extension UserObject {
     
     static func parse(json: Any) -> User {
         
-        return User(identifier: " ", name: " ")
+        guard
+        let json = json as? [String:Any],
+        let identifier = json["id"] as? String,
+        let name = json["name"] as? String
+
+            else{fatalError()}
+        
+        return User(identifier: identifier  , name: name)
         
     }
     
