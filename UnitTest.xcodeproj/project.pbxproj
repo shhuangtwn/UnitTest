@@ -13,6 +13,8 @@
 		75EEDD781DB461E8004D4D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EEDD771DB461E8004D4D99 /* Assets.xcassets */; };
 		75EEDD7B1DB461E8004D4D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EEDD791DB461E8004D4D99 /* LaunchScreen.storyboard */; };
 		75EEDD831DB46388004D4D99 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 75EEDD821DB46388004D4D99 /* users.json */; };
+		75EEDD851DB46555004D4D99 /* UserListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */; };
+		75EEDD871DB4659F004D4D99 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDD861DB4659E004D4D99 /* UserObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		75EEDD7A1DB461E8004D4D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EEDD7C1DB461E8004D4D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EEDD821DB46388004D4D99 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTableTableViewController.swift; sourceTree = "<group>"; };
+		75EEDD861DB4659E004D4D99 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				75EEDD791DB461E8004D4D99 /* LaunchScreen.storyboard */,
 				75EEDD7C1DB461E8004D4D99 /* Info.plist */,
 				75EEDD821DB46388004D4D99 /* users.json */,
+				75EEDD841DB46555004D4D99 /* UserListTableTableViewController.swift */,
+				75EEDD861DB4659E004D4D99 /* UserObject.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EEDD851DB46555004D4D99 /* UserListTableTableViewController.swift in Sources */,
+				75EEDD871DB4659F004D4D99 /* UserObject.swift in Sources */,
 				75EEDD731DB461E8004D4D99 /* ViewController.swift in Sources */,
 				75EEDD711DB461E8004D4D99 /* AppDelegate.swift in Sources */,
 			);
